@@ -23,11 +23,11 @@ $diez:10px;
 // Estilos 
 #container{
     width: $largoCaja;
-    background-color: aqua;
     border-left: 1px solid $border;
     border-bottom: 1px solid $border;
     border-right: 1px solid $border;
     border-top: $borderTop solid $texto;
+    background-color: $fondo;
 }
 
 .image{
@@ -35,9 +35,13 @@ $diez:10px;
     width: $image;
 }
 
+.texto{
+     float: right;
+}
+
 .titulo{
     margin: 0;
-    padding:0 $quince 0 0  ;
+    padding:$veinte 0 $quince $quince;
     width: 240px;
     height: 45px;
     font-family: Proxima Nova,Arial, Helvetica, sans-serif;
@@ -48,13 +52,14 @@ $diez:10px;
 }
 
 .circulo{
-    width: 8px;
-    height: 8px;
+    width: 9px;
+    height: 9px;
     background-color: $texto;
     border-radius: 50%;
 }
 
 .available{
+    float: right;
     width: 240px;
     height: 10px;
     font-family: Proxima Nova,Arial, Helvetica, sans-serif;
@@ -69,4 +74,5 @@ $diez:10px;
     height: 35px;
     text-transform: uppercase;
     margin: $quince $quince $veinte $quince; 
+    background-color:$fondo;
 }

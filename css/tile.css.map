@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAuBA,UAAU;EACN,KAAK,EAhBG,KAAK;EAiBb,gBAAgB,EAAE,IAAI;EACtB,WAAW,EAAE,cAAiB;EAC9B,aAAa,EAAE,cAAiB;EAChC,YAAY,EAAE,cAAiB;EAC/B,UAAU,EAAE,cAAuB;;AAGvC,MAAM;EACF,OAAO,EAAE,mBAA6B;EACtC,KAAK,EAtBF,IAAI",
-"sources": ["../sass/tile.scss"],
-"names": [],
-"file": "tile.css"
-}
