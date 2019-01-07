@@ -1,0 +1,72 @@
+// Variables
+
+// Colores
+$fondo:#ffffff;
+$texto: #333;
+$border:#ccc;
+
+// Medidas
+$largoCaja: 355px;
+// $anchoCaja:180px;
+$borderCaja:1px;
+$borderTop: 5px;
+$image:75px;
+$titulo:20px;
+$available:12px;
+
+// Paddings
+$quince:15px;
+$veinte:20px;
+$diez:10px;
+
+
+// Estilos 
+#container{
+    width: $largoCaja;
+    background-color: aqua;
+    border-left: 1px solid $border;
+    border-bottom: 1px solid $border;
+    border-right: 1px solid $border;
+    border-top: $borderTop solid $texto;
+}
+
+.image{
+    padding: $veinte $diez $veinte $quince;
+    width: $image;
+}
+
+.titulo{
+    margin: 0;
+    padding:0 $quince 0 0  ;
+    width: 240px;
+    height: 45px;
+    font-family: Proxima Nova,Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    font-size: $titulo;
+    color: $texto;
+}
+
+.circulo{
+    width: 8px;
+    height: 8px;
+    background-color: $texto;
+    border-radius: 50%;
+}
+
+.available{
+    width: 240px;
+    height: 10px;
+    font-family: Proxima Nova,Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: $available;
+    color: $texto;
+    padding-bottom: $veinte;
+    margin: 0;
+}
+.btn{
+    width: 325px;
+    height: 35px;
+    text-transform: uppercase;
+    margin: $quince $quince $veinte $quince; 
+}
